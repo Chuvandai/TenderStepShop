@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sản phẩm – TenderStep</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/shop.css" />
+</head>
+<body class="page-shop">
+  <div id="site-header"></div>
+
+  <main>
+    <div class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb">
+          <a href="index.html">Trang chủ</a>
+          <span>/</span>
+          <span>Sản phẩm</span>
+        </nav>
+        <h1>Cửa hàng TenderStep</h1>
+        <p>Giá lẻ 39.000–59.000đ/đôi · Combo 3 đôi từ 99.000đ · Combo 5 đôi từ 159.000đ</p>
+      </div>
+    </div>
+
+    <section class="container">
+      <div class="shop-toolbar">
+        <div class="shop-filters" id="shop-filters">
+          <button type="button" class="filter-btn active" data-filter="all">Tất cả</button>
+          <button type="button" class="filter-btn" data-filter="retail">1 đôi (39K–59K)</button>
+          <button type="button" class="filter-btn" data-filter="combo">Combo 3 & 5 đôi</button>
+        </div>
+        <div class="shop-sort">
+          <select id="shop-sort" aria-label="Sắp xếp">
+            <option value="featured">Nổi bật</option>
+            <option value="price-asc">Giá thấp → cao</option>
+            <option value="price-desc">Giá cao → thấp</option>
+            <option value="rating">Đánh giá cao</option>
+          </select>
+        </div>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/products.js"></script>
+  <script src="js/product-ui.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>
