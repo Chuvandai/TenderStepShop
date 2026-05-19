@@ -24,7 +24,7 @@
       <header class="header scrolled" id="top">
         <nav class="nav container">
           <a href="index.html" class="logo">
-            <img src="images/1.jpg" alt="TenderStep" class="logo-img" width="180" height="64" />
+            <img src="images/lg.jpg" alt="TenderStep" class="logo-img" width="180" height="64" />
           </a>
           <button class="nav-toggle" aria-label="Mở menu" aria-expanded="false">
             <span></span><span></span><span></span>
@@ -53,7 +53,7 @@
           <div class="footer-main">
             <div class="footer-brand-col">
               <a href="index.html" class="footer-logo-link">
-                <img src="images/1.jpg" alt="TenderStep" class="footer-logo" />
+                <img src="images/lg2.jpg" alt="TenderStep" class="footer-logo" />
               </a>
               <p class="footer-tagline-brand">Bước chân dịu dàng 🌿</p>
               <p class="footer-desc">Tất ủ gót chân nha đam – chăm sóc dịu nhẹ dành cho phụ nữ hiện đại.</p>
